@@ -25,10 +25,10 @@
             <nav>
                 <ul>
                     <li class="a1"><a href="#">Home</a></li>
-                    <li class="a1"><a href="bookSection/book_section/booksection.html">Book
+                    <li class="a1"><a href="book_section/booksection.html">Book
                             Section</a></li>
                     <li class="a1"><a href="#aboutme">Contact</a></li>
-                    <li><a href="/mydatabase/login.php"><i class="fas fa-sign-out-alt"> Logout</i></a></li>
+                    <!-- <li><a href="/mydatabase/login.php"><i class="fas fa-sign-out-alt"> Logout</i></a></li> -->
                 </ul>
             </nav>
         </div>
@@ -91,17 +91,15 @@
         </div>
         <div class="b">
             <div class="b1">
-                <h1><a href="bookSection/computer_section/computer_page/computersection.html">Computer
+                <h1><a href="book_section/computer_page/computersection.html">Computer
                         Science<br>and<br>Engineering</a></h1>
             </div>
             <div class="b2">
-                <h1><a
-                        href="bookSection/electrical_section/electrical_page/electricalpage.html">Electrical<br>Engineering</a>
+                <h1><a href="book_section/electrical_page/electricalpage.html">Electrical<br>Engineering</a>
                 </h1>
             </div>
             <div class="b3">
-                <h1><a
-                        href="bookSection/electronics_section/electronics_page/electronicspage.html">Electronics<br>Engineering</a>
+                <h1><a href="book_section/electronics_page/electronicspage.html">Electronics<br>Engineering</a>
                 </h1>
             </div>
         </div>
@@ -114,7 +112,7 @@
         <!-- <h2>About</h2> -->
         <div class="flexing">
             <div class="recs">
-                <img src="./recimg.png" alt="recs" height="150px" width="150px">
+                <img src="./recimg.png" alt="recs" height="150px" width="150px" id="pic" style="cursor: pointer;">
                 <p>Rajkiya Engineering College, Sonbhadra <br> 231206 <br>Tel: 05444-252002</p>
 
             </div>
@@ -175,6 +173,12 @@
             // let url = 'https://www.google.co.in/search?q=' + query.value;
             let url = 'https://1lib.in/s/' + query.value;
             // let url = 'http://127.0.0.1:5501/bookSection/book%20section/booksection.html' + query.value;
+            window.open(url);
+        }
+
+        let picture = document.querySelector('#pic');
+        picture.onclick = function () {
+            let url = 'http://recsonbhadra.ac.in/'.value;
             window.open(url);
         }
     </script>
