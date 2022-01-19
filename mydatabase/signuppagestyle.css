@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* background-size: cover; */
+/* backface-visibility: hidden; */
+body{
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+/* body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f0f2f5;
+} */
+
+header{
+    background-color: royalblue;
+    display: flex;
+    height: 10vh;
+    width: 98.8vw;
+}
+header h1{
+    color: white;
+    margin: 1vh 0 0 40vw;
+    font-size: 50px;
+}
+section{
+    margin: 5vh 0;
+    border: grey 2px hidden;
+    display: inline-block;
+    padding: 40px;
+    background-color: white;
+     box-shadow: 0px 0px 10px gray;
+}
+section h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color:rgb(80, 74, 74);
+    font-size: 40px;
+    margin: -17px;
+    text-align: center;
+}
+
+#box{
+    
+    height: 5vh;
+    width: 35vw;
+    border: gray 2px solid;
+    border-radius: 5px;
+    /* margin: 18px 16px 0 100px; */
+    padding: 0 15px;
+    
+}
+#box1{
+    height: 20vh;
+    width: 50vw;
+    border: gray 2px solid;
+    border-radius: 5px;
+    padding: 0 15px;
+
+}
+#box2{
+    height: 30vh;
+    width: 50vw;
+    border: gray 2px solid;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.block{
+    margin-top: 3vh;
+}
+.block .regi{
+    font-weight: bold;
+    color: gray;
+}
+.Add{
+    font-weight: bold;
+    color: gray;
+
+}
+#register{
+    margin: 3vh 0 3vh 0;
+    height: 5vh;
+    width: 10vw;
+    background-color: royalblue;
+    color: white;
+    font-weight: bolder;
+    border: white 2px solid;
+}
+section .sign{
+    display: flex;
+}
+#signup p{
+    display: inline-block;
+    padding: 30px;
+}
+#signup a{
+    text-decoration: none;
+    color: rgb(18, 30, 66);
+    font-weight: bolder;
+}
+#signup a:hover{
+    color: royalblue;
+}
+
+footer {
+    background-color: rgb(23, 14, 71);
+    text-align: center;
+    height: 36vh;
+    width: 95vw;
+    padding: 30px;
+}
+footer p{
+    padding-top: 3vh;
+    color: white;
+    font-size: 20px;
+}
+footer h2{
+    padding-top: 2vh;
+    color: white;
+    font-size: 45px;
+    text-decoration: underline;
+}
+footer .flexing{
+    display: flex;
+}
+.flexing .recs img{
+    margin: 35px 0 0 0vw;
+}
+.flexing .recs{
+    /* border: white 2px solid; */
+    height: 40vh;
+    width: 30vw;
+}
+.flexing .address{
+    margin: 5vh 0 0 11vw;
+    text-justify: auto;
+}
+.flexing .address span{
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+}
+.flexing .address p{
+    padding-top: 2vh;
+    margin-top: 2vh;
+}
+
+.flexing .connect{
+    margin: 0 0 0 15vw;
+}
+.flexing .connect p{
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 3vh 0 2vh 0 ;
+}
+.flexing .connect nav{
+    display: flex;
+    margin-left: 40px;
+}
+.flexing .connect nav ul li{
+    display: inline-block;
+    padding: 15px;
+    height: 50px;
+}
+.flexing .connect span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2vh 0 0 0;
+    font-style: italic;
+    font-weight: bolder;
+}
+

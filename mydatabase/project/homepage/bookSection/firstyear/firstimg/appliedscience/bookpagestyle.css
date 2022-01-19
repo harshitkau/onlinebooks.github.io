@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background-color: royalblue;
+    height: 10vh;
+    display: flex;
+}
+header h1{
+    color: white;
+    margin: 0 0 0 35vw;
+    font-size: 50px;
+}
+
+.head1{
+    color: rgb(124, 121, 121);
+    font-size: 20px;
+    margin-top: 7vh;
+    border: white 2px solid;
+    width: 46vw;
+    margin-left: 27vw;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 2px 10px black;
+}
+
+.sect1 .book{
+    display: flex;
+    margin: 10vh 15vw;
+}
+
+.sect1 .book_name{
+    margin-left: 10vw;
+}
+.sect1 .book_name h2{
+    font-size: 55px;
+    color: rgb(126, 22, 22);
+}
+
+.sect1 .book_name p{
+    color: rgb(126, 22, 22);
+    font-size: 30px;
+    margin-top: 7vh;
+}
+
+#bookbutton{
+    height: 30px;
+    width: 100px;
+    margin-top: 1.5vh;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: white 2px hidden;
+    border-radius: 5px;
+}
+#bookbutton:hover{
+    transition: all 10ms ease-out;
+    box-shadow: 1px 2px 10px royalblue;
+    
+    height: 30.3px;
+    width: 100.3px;
+    background-color: royalblue;
+    color: white;
+}
+
+.sect2 .book{
+    display: flex;
+    margin: 20vh 15vw;
+}
+
+.sect2 .book_name{
+    margin-left: 10vw;
+}
+.sect2 .book_name h2{
+    font-size: 55px;
+    color: rgb(126, 22, 22);
+}
+
+.sect2 .book_name p{
+    color: rgb(126, 22, 22);
+    font-size: 30px;
+    margin-top: 7vh;
+}
+.image{
+    border: red 2px hidden;
+    box-shadow: 1px 2px 10px black;
+}
+
+
+/* footer part */
+
+footer {
+    background-color: rgb(23, 14, 71);
+    text-align: center;
+    height: 36vh;
+    width: 95vw;
+    padding: 30px;
+}
+footer p{
+    padding-top: 3vh;
+    color: white;
+    font-size: 20px;
+}
+footer h2{
+    padding-top: 2vh;
+    color: rgb(153, 40, 40);
+    font-size: 45px;
+    text-decoration: underline;
+}
+footer .flexing{
+    display: flex;
+}
+.flexing .recs img{
+    margin: 35px 0 0 0vw;
+}
+.flexing .recs{
+    /* border: white 2px solid; */
+    height: 40vh;
+    width: 30vw;
+}
+.flexing .address{
+    margin: 5vh 0 0 11vw;
+    text-justify: auto;
+}
+.flexing .address span{
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+}
+.flexing .address p{
+    padding-top: 2vh;
+    margin-top: 2vh;
+}
+
+.flexing .connect{
+    margin: 0 0 0 15vw;
+}
+.flexing .connect p{
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 3vh 0 2vh 0 ;
+}
+.flexing .connect nav{
+    display: flex;
+    margin-left: 40px;
+}
+.flexing .connect nav ul li{
+    display: inline-block;
+    padding: 15px;
+    height: 50px;
+}
+.flexing .connect span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2vh 0 0 0;
+    font-style: italic;
+    font-weight: bolder;
+}
+

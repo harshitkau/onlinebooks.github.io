@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0f2f5;
+}
+header{
+    background-color: royalblue;
+    height: 10vh;
+    width: 98.9vw;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+section .engineering{
+    color: rgb(124, 121, 121);;
+    font-size: 40px;
+    margin-top: 10vh;
+    border: white 2px solid;
+    width: 60vw;
+    margin-left: 20vw;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 2px 10px black;
+}
+section .year{
+    color: rgb(124, 121, 121);;
+    font-size: 25px;
+    margin-top: 5vh;
+    border: white 2px solid;
+    width: 15vw;
+    margin-left: 42.5vw;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 2px 10px black;
+}
+section .container{
+    margin: 5vh 0 10vh 15vw;
+}
+section .box1{
+    display: flex;
+}
+section .box1 .ab{
+    margin-top: 5vh;
+    border: white 2px solid;
+    border-radius: 10px;
+    height: 15vh;
+    width: 25vw;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 2px 10px white;
+    transition: transform 0.05s;
+}
+section .box1 .ab:hover{
+    box-shadow: 1px 2px 10px black;
+    transform: scale(1.05);
+}
+section .box1 .b{
+    margin-top: 5vh;
+    text-align: center;
+    border: white 2px solid;
+    border-radius: 10px;
+    height: 15vh;
+    width: 25vw;
+    /* position: absolute; */
+    margin-left: 45vw;
+    background-color: white;
+     box-shadow: 1px 2px 10px white;
+     transition: transform 0.05s;
+}
+section .box1 .b:hover{
+    box-shadow: 1px 2px 10px black;
+    transform: scale(1.05);
+}
+
+section .box1 a{
+    text-decoration: none;
+    color: rgb(124, 121, 121);
+}
+section .box1 a h1{
+    margin-top: 3.9vh;
+    font-size: 30px;
+}
+
+footer {
+    background-color: rgb(23, 14, 71);
+    text-align: center;
+    height: 36vh;
+    width: 95vw;
+    padding: 30px;
+    /* margin-top: 100vh; */
+}
+footer p{
+    padding-top: 3vh;
+    color: white;
+    font-size: 20px;
+}
+footer h2{
+    padding-top: 2vh;
+    color: rgb(153, 40, 40);
+    font-size: 45px;
+    text-decoration: underline;
+}
+footer .flexing{
+    display: flex;
+}
+.flexing .recs img{
+    margin: 35px 0 0 0;
+}
+.flexing .recs{
+    /* border: white 2px solid; */
+    height: 40vh;
+    width: 30vw;
+}
+.flexing .address{
+    margin: 5vh 0 0 11vw;
+    text-justify: auto;
+}
+.flexing .address span{
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+}
+.flexing .address p{
+    padding-top: 2vh;
+    margin-top: 2vh;
+}
+
+.flexing .connect{
+    margin: 0 0 0 15vw;
+}
+.flexing .connect p{
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 3vh 0 2vh 0 ;
+}
+.flexing .connect nav{
+    display: flex;
+    margin-left: 40px;
+}
+.flexing .connect nav ul li{
+    display: inline-block;
+    padding: 15px;
+    height: 50px;
+}
+.flexing .connect span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2vh 0 0 0;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+
+
+

@@ -1,0 +1,40 @@
+<!-- <section class="online">
+        <div class="store">
+            <div class="image">
+                <img src="./bookstore.png" alt="book" height="300px">
+            </div>
+            <div class="tag">
+                <h1><span class="on1">Online</span><hr><br><span class="on2"> Book Store</span></h1>
+            </div>
+</div>
+    </section> -->
+
+
+\\\css file\\\
+    section{
+    /* background-color: royalblue; */
+    width: auto;
+    height: 100px;
+    color: black;
+    /* display: flex;
+    display: inline; */
+}
+section .on1{
+    font-size: 100px;
+}
+section h1{
+    line-height-step: 1;
+}
+.store{
+    display: flex;
+}
+.store .image{
+    display: inline-block;
+    margin-left: 20vw;
+    position: absolute;
+}
+.store .tag{
+    display: inline-block;
+    position: absolute;
+    margin:60px 45vw;
+    

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Online Book store</title>
+</head>
+
+<body>
+    <section id="section1">
+        <div class="image">
+            <img src="./logobook1.png" alt="img" height="72vh">
+        </div>
+        <div class="search">
+            <input type="text" name="" id="axa" placeholder="Search Here">
+            <input type="button" value="Search" id="btn">
+        </div>
+        <div class="bark">
+            <nav>
+                <ul>
+                    <li class="a1"><a href="#">Home</a></li>
+                    <li class="a1"><a href="/mydatabase/project/homepage/bookSection/book_section/booksection.html">Book
+                            Section</a></li>
+                    <li class="a1"><a href="#aboutme">Contact</a></li>
+                    <li><a href="/mydatabase/login.php"><i class="fas fa-sign-out-alt"> Logout</i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <hr>
+    <div id="sl">
+        <div class="slidershow middle">
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <input type="radio" name="r" id="r5">
+                <div class="slide s1">
+                    <img src="book3.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="bookstore _img.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="book5.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="book2.jfif" alt="">
+                </div>
+                <div class="slide">
+                    <img src="book7.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+                <label for="r4" class="bar"></label>
+                <label for="r5" class="bar"></label>
+            </div>
+        </div>
+    </div>
+
+    <div class="home1">
+        <div class="Ha">
+            <img src="./dsa.jpg" alt="img" height="350px">
+        </div>
+        <div class="ka">
+            <h1>DATA STRUCTURE and ALGORITHM</h1>
+            <h3>Book pdf</h3>
+            <p>For Download</p>
+            <a href="https://1lib.in/book/2315271/c157bc"><input type="button" value="Click Here" id="bookbutton"></a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="sec">
+        <div class="write">
+            <h1>Category</h1>
+
+        </div>
+        <div class="b">
+            <div class="b1">
+                <h1><a
+                        href="/mydatabase/project/homepage/bookSection/computer_section/computer_page/computersection.html">Computer
+                        Science<br>and<br>Engineering</a></h1>
+            </div>
+            <div class="b2">
+                <h1><a
+                        href="/mydatabase/project/homepage/bookSection/electrical_section/electrical_page/electricalpage.html">Electrical<br>Engineering</a>
+                </h1>
+            </div>
+            <div class="b3">
+                <h1><a
+                        href="/mydatabase/project/homepage/bookSection/electronics_section/electronics_page/electronicspage.html">Electronics<br>Engineering</a>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer id="aboutme">
+        <!-- <h2>About</h2> -->
+        <div class="flexing">
+            <div class="recs">
+                <img src="./recimg.png" alt="recs" height="150px" width="150px">
+                <p>Rajkiya Engineering College, Sonbhadra <br> 231206 <br>Tel: 05444-252002</p>
+
+            </div>
+        </div>
+        <div class="connect">
+            <div class="conn">
+
+                <p>Connect with us</p>
+                <div class="contact">
+                    <nav>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="add">
+                <span>Address</span>
+                <div class="address">
+                    <p>Rajkiya Engineering College <br>Churk, Sonbhadra<br>pin: 231206 <br>Tel:
+                        05444-252002</p>
+                </div>
+            </div>
+            <div class="support">
+                <span>Support us</span>
+                <div class="supp">
+                    <p>Rajkiya Engineering College <br>Churk, Sonbhadra<br>pin: 231206 <br>Tel:
+                        05444-252002</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="rajkiya">
+            <span><i class="far fa-copyright"></i> Rajkiya Engineering College Sonbhadra</span>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let query = document.querySelector('#axa');
+        let searchBtn = document.querySelector('#btn');
+
+        searchBtn.onclick = function () {
+            // let url = 'https://www.google.co.in/search?q=' + query.value;
+            let url = 'https://1lib.in/s/' + query.value;
+            // let url = 'http://127.0.0.1:5501/bookSection/book%20section/booksection.html' + query.value;
+            window.open(url);
+        }
+    </script>
+</body>
+
+</html>
