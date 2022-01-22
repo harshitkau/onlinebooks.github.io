@@ -1,0 +1,55 @@
+.fa-book-reader{
+    font-size: 400%;
+    /* margin-top: 80%; */
+    margin-left: 70%;
+}
+.ha2{
+    letter-spacing: 80%;
+    /* font-size: 70%; */
+     margin: 40.9vh 0 0 16vw;
+}
+
+.ha1{
+    position: absolute;
+    font-size: auto;
+    margin: 12vh 0 0 13vw;
+}
+.btn{    
+   padding-top: 130px;
+   margin-left: 63vw;
+   margin-top: 40vh;
+}
+
+
+.box1{
+    padding: 35px;
+    margin-left: -5vw;
+    }
+    .box2{
+    margin-left: 19vw;
+   
+    padding: 35px;
+    
+}
+.box2:hover{
+    opacity: 1;
+    transform: scale(1.05); 
+}
+.box3{
+    position: absolute;
+    margin-left: 44vw;
+    border: 2px red hidden;
+    padding: 35px;
+    background-image: url(./smart.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    opacity: 0.8;
+    transition: transform .1s; 
+}
+.box3:hover{
+    opacity: 1;
+    transform: scale(1.05); 
+}
+
+    

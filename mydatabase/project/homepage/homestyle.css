@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +5,7 @@
 body{
     background-color: #f0f2f5;
     position: relative;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-family: 'Gill  Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
 
 }
 #section1{
@@ -21,7 +20,14 @@ body{
     display: inline-block;
     border: black 2px hidden;
     box-shadow: 1px 2px 10px white;
+}
+#section1 .image img{
+    height: 71.6px;
+    width: auto;
+}
 
+.media2{
+    display: flex;
 }
 
 #section1 .bark{
@@ -79,6 +85,8 @@ body{
     color: black;
 }
  /* End header part */
+
+
 
 
  .slidershow{
@@ -153,6 +161,8 @@ input[name="r"]{
 }
 
 
+
+
 .home1{
     display: flex;
     margin: 110vh 15vw 10vh  15vw;
@@ -203,7 +213,7 @@ text-decoration: underline 4px solid black;
 }
 
 .sec .b{
-    display: flex;
+    /* display: flex; */
     /* position: sticky; */
     margin-top: 16vh;
     /* position: relative; */
@@ -294,28 +304,10 @@ text-decoration: underline 4px solid black;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     background-color: rgb(23, 14, 71);
     text-align: center;
-    height: 82vh;
+    height: 85vh;
     width: 95vw;
     padding: 30px;
     margin-top: 60vh;
@@ -399,3 +391,467 @@ footer h2{
 }
 
 
+
+
+
+/* tab*/
+
+
+
+
+@media (min-width: 768px ) and (max-width : 1023px){
+    #section1{
+        background-color: royalblue;
+        height: 15vh;
+        width : auto;
+        display: flex;
+        position: fixed;
+        z-index: 100;
+    }
+    #section1 .image{
+        display: inline-block;
+        border: black 2px hidden;
+        box-shadow: 1px 2px 10px white;
+        height: 88px;
+    }
+    #section1 .image img{
+        height: 88px;
+    }
+
+    .media2{
+        display: inline-block;
+    }
+    #section1 .bark{
+        display: flex;
+    }
+    #section1 .bark nav{
+        display: flex;
+        margin: 15px 0 0 8vw;
+        
+    }
+    #section1 .bark nav ul li{
+        display: inline;
+        border: white 0.5px solid;
+        border-radius: 5px;
+        margin-left: 25px;
+        padding: 3px;
+        font-size: 13px;
+    }
+    #section1 .bark nav ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 12px;
+        font-weight: bold;
+    }
+    .fa-sign-out-alt{
+        color: white;
+    }
+    
+    #axa{
+        /* width: 30vw;
+        height: 27px; */
+        border-radius: 5px;
+        margin: 12px 15px 0 87px;
+        padding: 0 12px;
+        border: 2px solid white;
+    
+    }
+   #btn{
+       background-color: white;
+       color: grey;
+   }
+
+    .slidershow{
+        width: 80vw;
+        height: 55vh;
+        
+      }
+      .middle{
+        position: absolute;
+        top: 11%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+
+    .home1{
+        position: relative;
+        display: flex;
+        margin: 100vh 15vw 25vh 15vw;
+        height: 50vh;
+        width: 100vw;
+    }
+    .home1 .Ha{
+        border: white 2px hidden;
+        box-shadow: 1px 2px 10px black;
+        height: 60vh;
+    }
+    .home1 .ka{
+        color: red;
+        margin: 10vh 5vw;
+        font-size: 12px;
+    }
+   
+    .sec .write {
+            font-size: 30px;
+        }
+        
+    .sec .b{
+            display: grid;
+            margin-top: 10vh;
+        }
+    .sec .b .b1{
+            position: inherit;
+            display: grid;
+            margin: 0 auto 10vh auto;
+            height: 200px;
+            width: 450px;
+            opacity: 1;
+    }
+    .sec .b .b1 a{
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+            font-size: 40px;
+   }
+        .sec .b .b2{
+            display: grid;
+            position: inherit;
+            margin: 0 auto 10vh auto;
+            border: 2px solid white;
+            padding-top: 50px;
+            text-align: center;
+            height: 200px;
+            width: 450px;
+            opacity: 1;
+            
+        }
+        .sec .b .b2 a{
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+            font-size: 40px;
+        }
+        .sec .b .b3{
+            position: inherit;
+            display: grid;
+            margin: 0 auto 10vh auto;
+           
+            height: 200px;
+            width: 450px;
+            opacity: 1;
+        }
+        .sec .b .b3 a{
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+            font-size: 40px;
+        }
+    
+    footer {
+    background-color: rgb(23, 14, 71);
+    text-align: center;
+    height: 114vh;
+    width : 1023px;
+    padding: 30px;
+    margin-top: 10vh;
+    }
+    #pic{
+    height: 100px;
+    width: 100px;
+    }
+    .flexing{
+    margin: 5vh;
+    }
+    .flexing .recs p{
+    font-size: 20px;
+    }
+    .connect{
+    position: absolute;
+    margin: 10vh 30vw 0 30vw ;
+    display: grid;
+    }
+    .connect p{
+    text-align: center;
+    font-size: 30px;
+    }
+    .conn{
+    text-decoration: underline;
+    color: white;
+    }
+    .contact{
+    display: flex;
+    }
+    .contact nav ul li{
+    display: inline-block;
+    padding:40px 20px 0 20px;
+    }
+
+    .contact nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    }
+    .add{
+    margin: 10vh -30vw 0 -30vw;
+    }
+    .add span{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    padding: 200px 200px 10px 200px;
+    }
+    .add .address p{
+    font-size: 25px;
+    letter-spacing: 4px;
+    }
+
+    .support span{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    display: none;
+    }
+    .support .supp p{
+    font-size: 20px;
+    display: none;
+    }
+
+    .rajkiya{
+    display: none;
+    }
+
+    
+} 
+
+@media (max-width: 767px){
+    #section1{
+        height: 20vh;
+        width: 767px;
+    }
+    #section1 .image{
+        display: inline-block;
+        border: black 2px hidden;
+        box-shadow: 1px 2px 10px white;
+        height: 70px;
+    }
+    #section1 .image img{
+        height: 70px;
+    }
+
+    .media2{
+        display: inline-block;
+    }
+    #section1 .bark{
+        display: flex;
+    }
+    #section1 .bark nav{
+        display: flex;
+        margin: 15px 0 0 8vw;
+        
+    }
+    #section1 .bark nav ul li{
+        display: inline;
+        border: white 0.5px solid;
+        border-radius: 5px;
+        margin-left: 25px;
+        padding: 3px;
+        font-size: 13px;
+    }
+    #section1 .bark nav ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 12px;
+        font-weight: bold;
+    }
+    .fa-sign-out-alt{
+        color: white;
+    }
+    
+    #axa{
+        /* width: 30vw;
+        height: 27px; */
+        border-radius: 5px;
+        margin: 12px 15px 0 87px;
+        padding: 0 12px;
+        border: 2px solid white;
+    
+    }
+   #btn{
+       background-color: white;
+       color: grey;
+   }
+
+    .slidershow{
+        width: 80vw;
+        height: 55vh;
+        
+      }
+      .middle{
+        position: absolute;
+        top: 11%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+
+    .home1{
+        position: relative;
+        display: flex;
+        margin: 100vh 15vw 25vh 15vw;
+        height: 50vh;
+        width: 100vw;
+    }
+    .home1 .Ha{
+        border: white 2px hidden;
+        box-shadow: 1px 2px 10px black;
+        height: 60vh;
+    }
+    .home1 .ka{
+        color: red;
+        margin: 10vh 5vw;
+        font-size: 12px;
+    }
+   
+    .sec .write {
+            font-size: 30px;
+        }
+        
+    .sec .b{
+            display: grid;
+            margin-top: 10vh;
+        }
+    .sec .b .b1{
+            position: inherit;
+            display: grid;
+            margin: 0 auto 10vh auto;
+            height: 200px;
+            width: 450px;
+            opacity: 1;
+    }
+    .sec .b .b1 a{
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+            font-size: 40px;
+   }
+        .sec .b .b2{
+            display: grid;
+            position: inherit;
+            margin: 0 auto 10vh auto;
+            border: 2px solid white;
+            padding-top: 50px;
+            text-align: center;
+            height: 200px;
+            width: 450px;
+            opacity: 1;
+            
+        }
+        .sec .b .b2 a{
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+            font-size: 40px;
+        }
+        .sec .b .b3{
+            position: inherit;
+            display: grid;
+            margin: 0 auto 10vh auto;
+           
+            height: 200px;
+            width: 450px;
+            opacity: 1;
+        }
+        .sec .b .b3 a{
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+            font-size: 40px;
+        }
+    
+    footer {
+    background-color: rgb(23, 14, 71);
+    text-align: center;
+    height: 114vh;
+    width: 767px;
+    padding: 30px;
+    margin-top: 10vh;
+    }
+    #pic{
+    height: 100px;
+    width: 100px;
+    }
+    .flexing{
+    margin: 5vh;
+    }
+    .flexing .recs p{
+    font-size: 20px;
+    }
+    .connect{
+    position: absolute;
+    margin: 10vh 30vw 0 30vw ;
+    display: grid;
+    }
+    .connect p{
+    text-align: center;
+    font-size: 30px;
+    }
+    .conn{
+    text-decoration: underline;
+    color: white;
+    }
+    .contact{
+    display: flex;
+    }
+    .contact nav ul li{
+    display: inline-block;
+    padding:40px 20px 0 20px;
+    }
+
+    .contact nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    }
+    .add{
+    margin: 10vh -30vw 0 -30vw;
+    }
+    .add span{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    padding: 200px 200px 10px 200px;
+    }
+    .add .address p{
+    font-size: 25px;
+    letter-spacing: 4px;
+    }
+
+    .support span{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    display: none;
+    }
+    .support .supp p{
+    font-size: 20px;
+    display: none;
+    }
+
+    .rajkiya{
+    display: none;
+    }
+
+}
